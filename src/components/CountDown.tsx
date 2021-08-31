@@ -35,7 +35,7 @@ export function CountDown() {
       setIsActive(false);
       startNewChallenge();
     }
-  }, [isActive, time]);
+  }, [isActive, time, startNewChallenge]);
   return (
     <div>
       <div className={styles.countDownContainer}>
